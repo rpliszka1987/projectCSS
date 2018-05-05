@@ -1,15 +1,24 @@
+
+/* Type Selectors */
 body {
 	color: #878787;
 	margin: 0;
+	font-size: 150%;
 }
 
 .main-header {
 	background-color: orange;
+
 }
 
 .title {
 	color: white;
 	font-size: 26px;
+}
+
+.primary-content, 
+.secondary-content {
+	width: 60%;
 }
 
 ol li {
@@ -32,6 +41,8 @@ h3 {
 	color: #48525c;
 }
 
+
+
 .primary-content {
 	text-align: center;
 }
@@ -40,11 +51,15 @@ h3 {
 	border-top: 2px solid lightgray;
 }
 
+/* Id selector */
+
 #main-footer {
 	padding-top: 60px;
 	padding-bottom: 60px;
 	border-bottom: solid 10px orange;
 }
+
+/* PSeudo Classes*/
 
 a:link {
 	color: orange;

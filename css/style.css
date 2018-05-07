@@ -92,3 +92,11 @@ a:focus {
 	color:white;
 	background-color: orange;
 }
+
+.wildlife {
+	color: #fff;
+	background-color: #434a52;
+	padding: 18% 24%;
+	border-top: 10px solid #ffa949;
+
+}
